@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02EJ12.MainPage">
+
+    <StackLayout Margin="20" Visual="Material">
+        <Label Text="Nombre"/>
+        <Entry x:Name="name" Keyboard="Text"/>
+
+        <Label Text="Apellido"/>
+        <Entry x:Name="lname" Keyboard="Text"/>
+
+        <Label Text="Edad"/>
+        <Entry x:Name="age" Keyboard="Numeric"/>
+
+        <Label Text="Correo"/>
+        <Entry x:Name="email" Keyboard="Email"/>
+
+        <Button Text="Enviar Información" Clicked="Button_Enviar"/>
+    </StackLayout>
+
+</ContentPage>

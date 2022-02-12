@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02EJ12.PersonData">
+    <StackLayout Margin="20" Visual="Material">
+        <Label Text="{Binding name}" FontSize="Medium"/>
+
+        <Label Text="{Binding lname}" FontSize="Medium"/>
+
+        <Label Text="{Binding age}" FontSize="Medium"/>
+
+        <Label Text="{Binding email}" FontSize="Medium"/>
+    </StackLayout>
+</ContentPage>
